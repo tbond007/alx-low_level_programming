@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <unistd.h>
 
 /**
@@ -6,7 +5,7 @@
  *
  * Description: prints Dora's quote
  *
- * Return: Always 0 (Success)
+ * Return: Always 1 (Success)
  */
 
 int main(void)
