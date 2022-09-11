@@ -22,7 +22,8 @@ int main(void)
 		{
 			putchar(b);
 			putchar(d);
-			putchar(f);	
+			putchar(f);
+
 	if (c != 789)
 			{
 				putchar(',');
