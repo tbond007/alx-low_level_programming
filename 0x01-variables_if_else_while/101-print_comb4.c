@@ -24,11 +24,11 @@ int main(void)
 			putchar(d);
 			putchar(f);
 
-	if (c != 789)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+	if(c != 789)
+	{
+		putchar(',');
+		putchar(' ');
+	}
 		}
 		c++;
 	}
