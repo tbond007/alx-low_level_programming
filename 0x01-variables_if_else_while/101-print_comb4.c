@@ -12,6 +12,7 @@ int main(void)
 	int b;
 	int d;
 	int f;
+
 	while (c <= 999)
 	{
 		b = (c / 100 + '0');
