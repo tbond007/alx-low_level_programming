@@ -1,33 +1,26 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - prints out first 50
+ * fibonacci suit numbers
  *
- * Description: Prints the sum of even-valued
- * Fibonacci sequence not exceed 4million
- *
- * Return: Always 0 (Success)
+ * Return: return 0
 */
 int main(void)
 {
-	unsigned long fib1 = 0, fib2 = 1, sum;
-	float total_sum;
+	int inc;
+	unsigned long n1 = 0, n2 = 1, n3;
+	for (inc = 0; inc < 50; inc++)
 
-	while (1)
 	{
-		sum = fib1 + fib2;
-
-		if (sum > 4000000)
-			break;
-
-		if ((sum % 2) == 0)
-			total_sum += sum;
-
-		fib1 = fib2;
-		fib2 = sum;
+		n3 = n1 + n2;
+		printf("%lu", n3);
+		n1 = n2;
+		n2 = n3;
+	if (inc == 49)
+		printf("\n");
+	else
+		printf(", ");
 	}
-	printf("%.0f\n", total_sum);
-
 	return (0);
 }
