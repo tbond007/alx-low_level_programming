@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - prints the first 98 fibonaci sequences
  * Return: 0
