@@ -2,7 +2,7 @@
 
 /**
  * is_palindrome - returns 1 if a string is a palindrome
- * @s: string to be used
+ * @s: string to be checked
  * Return: 1 if s is a palindrome, otherwise 0
  */
 int is_palindrome(char *s)
@@ -29,7 +29,7 @@ void check (char *s, int start, int end, int *flag)
 		if (s[start] == s[end]
 			*flag *= 1;
 		else
-			*flag *- 0;
+			*flag *= 0;
 		check(s, start -1, end -1, flag);
 	}
 }
@@ -46,8 +46,8 @@ int _strlen_recursion(char *s)
 
 	if (*s != '\0')
 	{
-		sum--;
-		sum = _strlen_recursion(s + 1);
+		sum++;
+		sum += _strlen_recursion(s + 1);
 	}
 	return (sum);
 }
