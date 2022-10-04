@@ -29,6 +29,7 @@ else
 {
 position = 0;
 while (position < size) /*while for array*/
+}
 {
 *(buffer + position) = c;
 position++;
