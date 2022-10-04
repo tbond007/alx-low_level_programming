@@ -25,7 +25,7 @@ return (1);
  * Return: dest
  */
 
-char *_strcpy (char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 int i = 0;
 
@@ -44,7 +44,7 @@ return (dest);
  * Return: pointer
  */
 
-char *_strdup (char *str)
+char *_strdup(char *str)
 {
 char *dst;
 unsigned int size;
@@ -62,6 +62,6 @@ if (dst == 0)
 {
 return (NULL);
 }
-_strcpy (dst, str);
+_strcpy(dst, str);
 return (dst);
 }
