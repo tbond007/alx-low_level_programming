@@ -24,7 +24,7 @@ return (1);
  * Return: dest
  */
 
-char *_strdup (char *str)
+char *_strcpy (char *dest, char *src)
 {
 int i = 0;
 while (src[i] != '\0')
