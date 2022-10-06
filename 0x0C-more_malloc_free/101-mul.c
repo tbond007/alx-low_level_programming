@@ -137,7 +137,7 @@ int main(int argc, char *argv[])
     if (t == NULL)
     {
       for (ti = 0; e[ti]; ti++)
-        _putchar(e[ti]);
+	      _putchar(e[ti]);
       free(a);
       exit(98);
     }
